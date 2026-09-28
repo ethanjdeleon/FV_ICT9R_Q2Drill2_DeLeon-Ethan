@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            background-image: url(https://www.pngkey.com/png/full/872-8720323_movie-theater-png-sala-de-cine-png.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+        header{
+            text-align: center;
+        }
+        section{
+    	    background-color: #fff;
+    	    padding: 20px;
+    	    border-radius: 12px;
+    	    width: 600px;
+    	    margin: auto;
+    	    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 210px;
+            width: 210px;
+            padding: 5px;
+        }
+        input[type="text"], select, textarea, input[type="submit"] {
+            width: 94%;
+            padding: 7px;
+            border: 2px solid #000000;
+            border-radius: 30px;
+            text-align: center;
+        }
+        input[type="placeholder"]{
+          text-align: center;
+        }
+        h1{
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+        p{
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+            <br>
+        <p>Rate and write a review for a movie based on how you enjoyed it!</p>
+    </header>
+
+    <br>
+
+    <section>
+        <form action="">
+            <img src="https://png.pngtree.com/element_our/png/20181113/clapperboard-film-logo-icon-design-template-vector-isolated-png_236642.jpg" alt="logo">
+            <br>
+
+            <label for="movie">Movie Title:</label>
+            <input type="text" id="movie" name="movie" placeholder="Enter here...">
+
+            <br>
+            <label for="">Genre/s:</label>
+            <br>
+            <input type="checkbox" id="genre1" name="Genre1" value="Action">
+            <label for="genre1">Action</label>
+            <input type="checkbox" id="genre2" name="Genre2" value="Romance">
+            <label for="genre2">Romance</label>
+            <input type="checkbox" id="genre3" name="Genre3" value="Horror">
+            <label for="genre3">Horror</label>
+            <input type="checkbox" id="genre4" name="Genre4" value="Sci-fi">
+            <label for="genre4">Sci-fi</label>
+            <input type="checkbox" id="genre5" name="Genre5" value="Thriller">
+            <label for="genre2">Thriller</label>
+            
+            <br>
+            <label for="rating">Rating:</label>
+            <br>
+            <input type="radio" id="rate1" name="rate" value="star1">
+            <label for="rate1">1⭐</label>
+            <input type="radio" id="rate2" name="rate" value="star2">
+            <label for="rate2">2⭐</label>
+            <input type="radio" id="rate3" name="rate" value="star3">
+            <label for="rate3">3⭐</label>
+            <input type="radio" id="rate4" name="rate" value="star4">
+            <label for="rate4">4⭐</label>
+            <input type="radio" id="rate5" name="rate" value="star5">
+            <label for="rate5">5⭐</label>
+            
+            <br>
+            <textarea id="review" name="review" placeholder="Write a review..." rows="5" cols="40"></textarea>
+            <br>
+
+            <input type="submit" id="submit" name="submit" value="  Submit Your Review">
+            <br>
+
+            For movie review tips, click<a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/" target="_blank">here</a>
+
+        </form> 
+    </section>
+
+    <!--Reference
+	    Nyfa, & Nyfa. (2024, March 23). How to write a movie review: 10 essential tips. NYFA. https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/
+    -->
+</body>
+</html>
